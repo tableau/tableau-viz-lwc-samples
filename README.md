@@ -2,6 +2,8 @@
 
 This repository contains samples for how you can add the Tableau Viz Lightning Web Component (LWC) within the body of your component. Composition enables you to build on top of the Tableau Viz LWC to make it fits your own needs.
 
+To learn more about composition, check out the Lightning Web Component Dev Guide [here](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.create_components_compose_intro)
+
 ## Requirement:
 
 [You need to install the Tableau Viz LWC from GitHub](https://github.com/tableau/tableau-viz-lwc)
