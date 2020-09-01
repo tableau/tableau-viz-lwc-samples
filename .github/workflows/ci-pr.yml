@@ -37,6 +37,3 @@ jobs:
             # ESlint
             - name: 'Linting'
               run: npm run lint
-
-
-    
