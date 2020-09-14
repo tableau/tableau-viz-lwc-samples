@@ -6,10 +6,9 @@ To learn more about composition, check out the Lightning Web Component Dev Guide
 
 ## Requirement:
 
-- [You need to install the Tableau Viz LWC from GitHub](https://github.com/tableau/tableau-viz-lwc)
-- [Set Up Your Salesforce DX Environment](https://trailhead.salesforce.com/en/content/learn/projects/quick-start-lightning-web-components/set-up-salesforce-dx)
-- [Set Up Visual Studio Code](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/set-up-visual-studio-code)
-
+-   [You need to install the Tableau Viz LWC from GitHub](https://github.com/tableau/tableau-viz-lwc)
+-   [Set Up Your Salesforce DX Environment](https://trailhead.salesforce.com/en/content/learn/projects/quick-start-lightning-web-components/set-up-salesforce-dx)
+-   [Set Up Visual Studio Code](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/set-up-visual-studio-code)
 
 ## Samples:
 
