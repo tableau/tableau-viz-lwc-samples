@@ -95,4 +95,10 @@ Provide it with an alias (**mydevorg** in the following command):
     ```
 
     This opens Salesforce and takes you to your Developer Edition Org. When you edit a Lightning page, the **Tableau Visualization** and **Tableau Viz Sample** should both appear and be available under Components.
+    
+    Note that you might need to specify a different `-u username` for the org where you installed the `tableau-viz-lwc` component. The deployment will fail if the Tableau Viz Lightning web component and the is not installed and the `tableauViz` is module is not available. You can check your setup by using the following command.
 
+   ```
+   sfdx force:org:list
+
+   ```
