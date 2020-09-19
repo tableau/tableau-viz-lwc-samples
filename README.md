@@ -8,7 +8,7 @@ To learn more about composition and how you can go about composing components, c
 
 -   [Install git](https://git-scm.com/downloads), if you haven't already done so.
 
--   [Install the Tableau Viz LWC from GitHub](https://github.com/tableau/tableau-viz-lwc)
+-   In your Salesforce org, [Install the Tableau Viz LWC from GitHub](https://github.com/tableau/tableau-viz-lwc) or from the [AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GF1cSUAT).
 
 -   [Set Up Your Salesforce DX Environment](https://trailhead.salesforce.com/en/content/learn/projects/quick-start-lightning-web-components/set-up-salesforce-dx)
 
@@ -28,23 +28,22 @@ The Localized Dashboards sample requires that you first install the Tableau Viz 
 
 -   By cloning and installing the [tableau-viz-lwc](https://github.com/tableau/tableau-viz-lwc) project from GitHub
 
-How you install the Tableau Viz Lightning web component determines how you need to install the sample. The differences are described in the following instructions. These instructions assume that you are using a [Developer Edition Org](https://developer.salesforce.com/signup) or a sandbox.
+How you install the Tableau Viz Lightning web component determines how you need to install the sample. If you installed the component from the AppExchange, you need to make a modification to one of the configuration files for the sample. The following instructions describe how to install the sample for both scenarios. These instructions assume that you are using a [Developer Edition Org](https://developer.salesforce.com/signup) or a sandbox.
 
-1.  Open a Command or Terminal window and authorize the org where you installed the the Tableau Viz component from AppExchange.
-    Provide it with an alias (**mydevorg** in the following command):
+1. Open a Command or Terminal window and authorize the org where you installed the the Tableau Viz component from AppExchange. Provide it with an alias (**mydevorg** in the following command):
 
-        ```
-        sfdx force:auth:web:login -s -a mydevorg
-        ```
+    ```
+      sfdx force:auth:web:login -s -a mydevorg
+    ```
 
-1.  Clone this (**tableau-viz-lwc-samples**) repository:
+1. Clone this repository (**tableau-viz-lwc-samples**) :
 
     ```
     git clone https://github.com/tableau/tableau-viz-lwc-samples
 
     ```
 
-1.  Navigate to the directory of the repository you just cloned.
+1. Navigate to the directory of the repository you just cloned.
 
     ```
     cd tableau-viz-lwc-samples
@@ -101,3 +100,21 @@ How you install the Tableau Viz Lightning web component determines how you need 
     sfdx force:org:list
 
     ```
+
+## Try out the sample
+
+To see the Tableau sample in action try the following steps.
+
+1. Add the `Tableau Viz Sample` to a Lightning record page. The sample view changes language based on the language setting a user has enabled in Salesforce.
+
+1. To change to the language settings in Salesforce org, click the User icon in the top-right corner of the browser.
+
+1. Click **Settings**.
+
+1. Under My Personal Information, click **Language & Time Zone**.
+
+1. Choose French, Spanish, or English from the **Language** drop-down menu and save your settings.
+
+    If you are not familiar with the language you are changing to, be sure to note the location of the menu items you've selected, so that you can revert to the language you started from.
+
+1. Return to the page where you added the `Tableau Viz Sample` and observe the change in the language displayed in the view.
