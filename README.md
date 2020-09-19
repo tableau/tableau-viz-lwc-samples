@@ -1,6 +1,6 @@
 # Tableau Viz Lightning Web Component Samples
 
-This repository contains sample code that shows how you can add the Tableau Viz Lightning web component (LWC) within the body of another Lightning web component. This feature of Lightning Web Components is known as composition. Composition enables you to build on top of the Tableau Viz Lightning web component to customize it and make it fit your own needs.
+This repository contains sample code that shows how you can add the Tableau Viz Lightning web component (LWC) within the body of another Lightning web component. This feature of Lightning Web Components is known as composition. Composition enables you to build on top of the Tableau Viz Lightning web component to customize it and make it fit your own needs. One advantage of using composition to build your component is that you can benefit from the improvements made to the Tableau Viz Lightning web component without having to change your code.
 
 To learn more about composition and how you can go about composing components, check out [Composition](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.create_components_compose_intro) in the Lightning Web Component Dev Guide.
 
