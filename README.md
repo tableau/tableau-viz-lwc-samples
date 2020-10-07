@@ -52,22 +52,6 @@ How you install the Tableau Viz Lightning web component determines how you need 
 
 ---
 
-**Note:** If you installed the Tableau Viz Lightning component from AppExchange, you need to change the namespace the sample uses before you can deploy the sample to your org. Every component is part of a namespace. The sample project uses the default namespace `c`. In contrast, the Tableau Viz Lightning web component from AppExchange uses the namespace `tab`. Without modification, the sample will not work if you have installed the Tableau Viz Lightning web component from the AppExchange. You can skip this step if you didn't install the Tableau Viz web component from the AppExchange.
-
-1. Navigate to the `/force-app/main/default/lwc/tableauvizlwcdemo` folder and open the `tableauvizlwcdemo.html` file.
-
-1. Within the HTML template, change the component namespace from `c-tableau-viz` to `tab-tableau-viz` so that the sample can reference the Tableau Viz Lightning web component from AppExchange and save the file.
-
-    ```html
-    <!-- tableauvizlwcdemo.html -->
-
-    <template>
-        <tab-tableau-viz viz-url="{translatedVizUrl}"></tab-tableau-viz>
-    </template>
-    ```
-
----
-
 ### Deploy the sample
 
 1. Run this command in a terminal to deploy the component.
