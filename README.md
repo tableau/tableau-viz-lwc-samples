@@ -8,7 +8,7 @@ To learn more about composition and how you can go about composing components, c
 
 -   [Install git](https://git-scm.com/downloads), if you haven't already done so.
 
--   In your Salesforce org, [Install the Tableau Viz LWC from GitHub](https://github.com/tableau/tableau-viz-lwc) or from the [AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GF1cSUAT).
+-   In your Salesforce org, [Install the Tableau Viz LWC from GitHub](https://github.com/tableau/tableau-viz-lwc)
 
 -   [Set Up Your Salesforce DX Environment](https://trailhead.salesforce.com/en/content/learn/projects/quick-start-lightning-web-components/set-up-salesforce-dx)
 
@@ -23,8 +23,6 @@ To learn more about composition and how you can go about composing components, c
 ## Install the sample
 
 The Localized Dashboards sample requires that you first install the Tableau Viz Lighting web component in your org. You can install the Tableau Viz Lighting web component in one of two ways:
-
--   From the AppExchange
 
 -   By cloning and installing the [tableau-viz-lwc](https://github.com/tableau/tableau-viz-lwc) project from GitHub
 
